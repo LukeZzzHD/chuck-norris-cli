@@ -1,5 +1,5 @@
 {
-  "name": "chuck-norris-cli",
+  "name": "@anthrazit/chuck-norris-cli",
   "version": "1.0.0",
   "description": "A nodejs CLI application for using the chuck norris api",
   "main": "dist/index.js",
