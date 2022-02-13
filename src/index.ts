@@ -8,6 +8,15 @@ import { Joke, Action } from './interfaces';
 import { quitCLI } from './quit';
 import { randomJoke } from './random';
 import { searchJokes } from './search';
+import figlet from 'figlet';
+
+console.log(
+  chalk.red(
+    figlet.textSync('Chuck Norris', {
+      font: 'Doom',
+    })
+  )
+);
 
 export async function showMenu() {
   const answer: { action: Action } = await inquirer.prompt([
